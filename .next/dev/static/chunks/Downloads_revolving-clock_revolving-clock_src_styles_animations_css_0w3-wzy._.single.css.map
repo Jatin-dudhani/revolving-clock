@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Downloads/revolving-clock/revolving-clock/src/styles/animations.css"],"sourcesContent":["/* animations.css — custom keyframes used across the revolving clock */\n\n/* Colon blink */\n@keyframes colonPulse {\n  0%, 100% { opacity: 0.6; }\n  50%       { opacity: 0.15; }\n}\n\n/* Background orb slow drift */\n@keyframes orbDrift {\n  from { transform: translate(0, 0) scale(1); }\n  to   { transform: translate(40px, 30px) scale(1.1); }\n}\n\n/* Ambient glow pulse on second tick */\n@keyframes glowPulse {\n  0%, 100% { box-shadow: 0 0 12px rgba(0,245,255,0.15); }\n  50%       { box-shadow: 0 0 28px rgba(0,245,255,0.35); }\n}\n\n/* Page fade-in on load */\n@keyframes fadeUp {\n  from { opacity: 0; transform: translateY(16px); }\n  to   { opacity: 1; transform: translateY(0); }\n}\n\n.animate-colonPulse { animation: colonPulse 1s step-end infinite; }\n.animate-orbDrift   { animation: orbDrift 16s ease-in-out infinite alternate; }\n.animate-glowPulse  { animation: glowPulse 1s ease-in-out; }\n.animate-fadeUp     { animation: fadeUp 0.6s ease-out both; }\n"],"names":[],"mappings":"AAGA;;;;;;;;;;AAMA;;;;;;;;;;AAMA;;;;;;;;;;AAMA;;;;;;;;;;;;AAKA;;;;AACA;;;;AACA;;;;AACA"}}]
+}

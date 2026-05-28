@@ -1,0 +1,10 @@
+{"timestamp":"00:00:05.935","source":"Server","level":"LOG","message":"- Experiments (use with caution):"}
+{"timestamp":"00:00:05.935","source":"Server","level":"LOG","message":"  ? turbo (invalid experimental key)"}
+{"timestamp":"00:00:05.935","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:06.887","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:08.229","source":"Server","level":"LOG","message":"URI: \"mongodb+srv://JatinDudhani:Jatin123@cluster0.w8pz0rd.mongodb.net/revolving-clock?retryWrites=true&w=majority&appName=Cluster0\""}
+{"timestamp":"00:00:08.302","source":"Server","level":"ERROR","message":"[GET /api/settings] Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.w8pz0rd.mongodb.net"}
+{"timestamp":"00:00:08.525","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:08.580","source":"Server","level":"ERROR","message":"[GET /api/settings] Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.w8pz0rd.mongodb.net"}
+{"timestamp":"00:00:09.334","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:09.385","source":"Server","level":"ERROR","message":"[GET /api/settings] Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.w8pz0rd.mongodb.net"}

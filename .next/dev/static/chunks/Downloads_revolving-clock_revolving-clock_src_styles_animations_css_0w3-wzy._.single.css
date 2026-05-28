@@ -1,0 +1,60 @@
+/* [project]/Downloads/revolving-clock/revolving-clock/src/styles/animations.css [app-client] (css) */
+@keyframes colonPulse {
+  0%, 100% {
+    opacity: .6;
+  }
+
+  50% {
+    opacity: .15;
+  }
+}
+
+@keyframes orbDrift {
+  from {
+    transform: translate(0)scale(1);
+  }
+
+  to {
+    transform: translate(40px, 30px)scale(1.1);
+  }
+}
+
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow: 0 0 12px #00f5ff26;
+  }
+
+  50% {
+    box-shadow: 0 0 28px #00f5ff59;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-colonPulse {
+  animation: 1s step-end infinite colonPulse;
+}
+
+.animate-orbDrift {
+  animation: 16s ease-in-out infinite alternate orbDrift;
+}
+
+.animate-glowPulse {
+  animation: 1s ease-in-out glowPulse;
+}
+
+.animate-fadeUp {
+  animation: .6s ease-out both fadeUp;
+}
+
+/*# sourceMappingURL=Downloads_revolving-clock_revolving-clock_src_styles_animations_css_0w3-wzy._.single.css.map*/

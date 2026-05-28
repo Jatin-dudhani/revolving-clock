@@ -1,0 +1,4 @@
+{
+  "/api/settings/route": "app/api/settings/route.js",
+  "/page": "app/page.js"
+}
